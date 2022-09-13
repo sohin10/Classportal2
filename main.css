@@ -25,6 +25,13 @@ body{
     color: #313131;
 }
 
+#Each{
+    /* width:40%;
+    padding-left: 5rem; */
+    color: #E4E0DB;
+}
+
+
 a{
     text-decoration: none;
 }
@@ -143,3 +150,44 @@ article.lab-projects:hover{
     height: 195.55px;
 } */
 
+.project-section{
+    display: flex;
+    background-color: #E4E0DB;
+    height: 975px;
+    /* justify-content: center; */
+
+}
+
+/* article.each-project{
+    background-color: red;
+    /* color: #d42a2a; */
+    /* width: 33.333333%; */
+/* } */ 
+
+
+.each-project h1{
+    /* position: relative; */
+    
+  margin-left: 200px;
+  margin-top: 50px;
+    /* margin: auto; */
+    /* font-family: "Open Sans", sans-serif; */
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+    color: #232220;
+}
+
+.each-project h2{
+    /* position: relative; */
+    
+  margin-left: 500px;
+  margin-bottom: 800px;
+  /* margin-top: 50px; */
+    /* margin: auto; */
+    /* font-family: "Open Sans", sans-serif; */
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: #232220;
+}
