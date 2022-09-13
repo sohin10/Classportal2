@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: #ffffff;
+}
+.navbar{
+    height: 65px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(102, 102, 102);
+}
+
+#logo{
+    width:40%;
+    padding-left: 5rem;
+    color: #ffffff;
+}
+
+#lab{
+    /* width:40%;
+    padding-left: 5rem; */
+    color: #313131;
+}
+
+a{
+    text-decoration: none;
+}
+nav h2{
+   width:60%;
+   margin-left: fit-content;
+}
+
+.home-section{
+    display: flex;
+    justify-content: space-between;
+    min-height: calc(100vh - 65px);
+}
+article.home-projects{
+    background-color: rgb(58, 58, 58);
+    /* color: #d42a2a; */
+    width: 33.333333%;
+
+   
+    /* min-height: calc(100vh - 65px); */
+}
+article.home-projects:hover{
+    /* background-color: #4f4f4f; */
+    background-image: url("imgz/italy.jpg");
+    background-size: 115%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.home-projects.italy{
+    width: 33.333333%;
+}
+
+
+.home-projects p{
+    position: relative;
+    top: 45%;
+    text-align: center;
+    margin: auto;
+    /* font-family: "Open Sans", sans-serif; */
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+    color: #E4E0DB;
+}
+.home-buttons{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    bottom: 25%;
+}
+
+.home-buttons button{
+    margin: auto 50px;
+}
+
+button{
+    background: none;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+    background-color: #E4E0DB;
+    padding: 10px 30px;
+}
+
+.lab-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: calc(100vh - 65px);
+
+}
+
+article.lab-projects{
+    background-color: rgb(58, 58, 58);
+
+    /* color: #d42a2a; */
+    width: 100%;
+    height: 195.55px;
+
+   
+    /* min-height: calc(100vh - 65px); */
+}
+
+.lab-projects p{
+    position: relative;
+    top: 35%;
+    /* bottom: 50%; */
+    text-align: center;
+    margin: auto;
+    /* font-family: "Open Sans", sans-serif; */
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: #E4E0DB;
+}
+
+
+article.lab-projects:hover{
+   
+    /* background-color: #4f4f4f; */
+    background-image: url("imgz/spain.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    
+    
+}
+
+/* .lab-projects.spain{
+    height: 195.55px;
+} */
+
