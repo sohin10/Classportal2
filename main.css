@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    color: #ffffff;
+    color: #E4E0DB;
 }
 .navbar{
     height: 65px;
@@ -14,20 +14,33 @@ body{
 }
 
 #logo{
+    font-size: 24px;
     width:40%;
     padding-left: 5rem;
-    color: #ffffff;
+    color: #E4E0DB;
 }
 
 #lab{
     /* width:40%;
     padding-left: 5rem; */
-    color: #313131;
+    color: rgb(58, 58, 58);
+}
+
+#maincode{
+    color: rgb(58, 58, 58);
+}
+
+#blog{
+    color: rgb(58, 58, 58);
 }
 
 #Each{
     /* width:40%;
     padding-left: 5rem; */
+    color: #E4E0DB;
+}
+
+#lablink{
     color: #E4E0DB;
 }
 
@@ -180,7 +193,7 @@ article.lab-projects:hover{
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 45px;
-    color: #232220;
+    color: rgb(102, 102, 102);
 }
 
 .each-project h2{
@@ -192,7 +205,7 @@ article.lab-projects:hover{
     font-family: "Open Sans", sans-serif;
     /* font-family: 'Roboto', sans-serif; */
     font-size: 30px;
-    color: #232220;
+    color:rgb(102, 102, 102);
 }
 
 .each-project img{
@@ -208,7 +221,7 @@ article.lab-projects:hover{
     margin-right: 40px;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    color: #232220;
+    color: rgb(102, 102, 102);
     /* font-size: 45px; */
 }
 
@@ -218,7 +231,7 @@ article.lab-projects:hover{
     margin-right: 40px;
     font-family: 'Roboto', sans-serif;
     font-weight: thin;
-    color: #232220;
+    color: rgb(102, 102, 102);
     /* font-size: 45px; */
 
 }
@@ -229,7 +242,7 @@ article.lab-projects:hover{
     margin-right: 40px;
     font-family: 'Roboto', sans-serif;
     font-weight: thin;
-    color: #232220;
+    color: rgb(102, 102, 102);
     /* font-size: 45px; */
 
 }
@@ -238,7 +251,7 @@ article.lab-projects:hover{
 .project-buttons button{
     position: absolute;
     justify-content: space-between;
-    background-color: #232220;
+    background-color:rgb(102, 102, 102);
     margin-left: 78px;
     bottom: 14%;
 }
@@ -251,7 +264,7 @@ article.lab-projects:hover{
 .code-buttons button{
     position: absolute;
     justify-content: space-between;
-    background-color: #232220;
+    background-color: rgb(102, 102, 102);
     margin-left: 250px;
     bottom: 14%;
 }
