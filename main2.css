@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*navigation bar style*/
+.navbar{
+    height: 65px;
+    color: beige;
+    text-align: center;
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; */
+    /* align-items:right; */
+    background-color: rgb(0, 0, 0);
+}
+
+/* takes the link underline out  */
+a{
+    text-decoration: none;
+}
+
+/*Changes color of logo link(purple) to beige*/
+#logo{
+    color: beige;
+
+} 
+
+/*home section to 100%*/
+.home{
+    width: 100%;
+    min-height: 100px;
+   
+   
+}
+
+.home-projects{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: aqua;
+    width: 100%;
+    
+    
+}
+
+/* .home-projects p{
+    padding: 80px;
+    position: relative;
+} */
+
+.home-projects:hover{
+    /* background-color: #4f4f4f; */
+    background-image: url("imgz/italy.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}

@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+/*navigation bar style*/
+.navbar{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    height: 65px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    align-items: center;
+    background-color: #E9E9E7;
+      
+}
+
+
+/* takes the link underline out  */
+a{
+    text-decoration: none;
+}
+
+/*Changes color of logo link(purple) to beige*/
+#logo{
+    margin-left: 20px;
+    font-size: 36px;
+    color: black;
+
+} 
+
+
+.project-section{
+    width: 100%;
+}
+
+.each-project{
+    width: 100%;
+}
+
+.each-project h1{
+    padding: 10px 20px 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: #E9E9E7;
+    line-height: 44px;
+
+}
+
+.each-project h2{
+    padding: 10px 20px 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: #E9E9E7;
+    line-height: 14px;
+}
+
+.parispic{
+    width: 50%;
+    padding: 20px;
+    /* margin-top: 30px;
+    margin-left: 20px; */
+}
+
+
+.each-project h3{
+    padding: 20px 20px 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color:#E9E9E7;
+    line-height: 14px;
+}
+
+
+.each-project p{
+    padding: 10px 20px 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #E9E9E7;
+    line-height: 24px;
+}
+
+
+.project-buttons{
+    flex-wrap: wrap;
+
+}
+
+button{
+    background: none;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+    background-color: #E9E9E7;
+    margin-top: 10px;
+    padding: 10px 20px 10px 20px; 
+    margin-left: 20px; 
+}
+
+#proj{
+    color: black;
+}
+
+#code{
+    color: black;
+}
+
+
+
+/* For ipad screen  */
+@media only screen and (min-width: 500px) {
+
+    .navbar{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items:center;
+        font-size: 36px;
+        height: 65px;
+        color: rgb(0, 0, 0);
+        /* display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start; */
+        /* align-items:right; */
+        background-color: #E9E9E7;
+    }
+
+    #logo{
+        margin-left: 20px;
+        font-size: 36px;
+        color: black;
+    
+    } 
+
+
+
+    .project-section{
+        width: 100%;
+        /* width: 600px;
+        margin: 0 auto; */
+    }
+
+    /* .parispic{
+        display: block;
+        width: 50%;
+        margin: 0;
+        padding: 50px;
+    } */
+
+    .parispic{
+        /* display: block; */
+        padding: 20px;
+        width: 50%;
+        float: left;
+    }
+
+    .each-project{
+        width: 100%;
+        /* width: 50%;
+        float: right; */
+    }
+
+    .each-project h1{
+        /* margin: 0;
+        padding: 20px;
+        font-size: 40px;
+        color: red;
+        line-height: 44px; */
+
+        padding: 20px 10px 0px 20px;;
+        font-size: 40px;
+        color: #E9E9E7;
+        /* line-height: 44px; */
+    
+    
+    }
+
+    .each-project h2{
+        padding: 20px 0px 0px 20px;
+        font-size: 25px;
+        color: #E9E9E7;
+        line-height: 14px;
+    }
+
+    .each-project h3{
+        padding: 50px 0px 0px 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        color: #E9E9E7;
+        line-height: 14px;
+    }
+
+    .each-project p{
+        padding: 20px 10px 0px 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        color:#E9E9E7;
+        line-height: 24px;
+    }
+
+
+    button{
+        margin-left: 0px;
+    }
+    
+    /* .each-project h2{
+        padding: 20px 30px 20px;
+        font-size: 20px;
+        color: rgb(28, 103, 97);
+        line-height: 14px;
+    }
+
+    .each-project h3{
+        padding: 10px 30px 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        color: rgb(83, 43, 185);
+        line-height: 14px;
+    }
+    
+    
+    .each-project p{
+        padding: 10px 30px 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        color: rgb(83, 43, 185);
+        line-height: 24px;
+    } */
+    
+}
+
+
+/* For Desktop screen  */
+@media only screen and (min-width: 1400px) {
+
+    .navbar{
+        display: flex;
+        justify-content: flex-start;
+        align-items:center;
+        height: 65px;
+        color: rgb(0, 0, 0);
+        /* display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start; */
+        /* align-items:right; */
+        background-color: #E9E9E7;
+    }
+
+    #logo{
+        margin-left: 20px;
+        font-size: 36px;
+        color: black;
+    
+    } 
+
+
+    .project-section{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .parispic{
+        padding: 20px;
+        width: 50%;
+        height: 930px;
+        float: left;
+    }
+
+    .each-project{
+        width: 100%;
+        /* float: right; */
+    }
+
+
+    .each-project h1{
+        padding: 20px 0px 0px 0px;;
+        font-size: 40px;
+        color: #E9E9E7;
+        /* line-height: 44px; */
+    
+    }
+
+    .each-project h2{
+        padding: 20px 0px 0px 0px;
+        font-size: 25px;
+        color: #E9E9E7;
+        line-height: 14px;
+    }
+
+    .each-project h3{
+        padding: 50px 00px 0px 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        color: #E9E9E7;
+        line-height: 14px;
+    }
+
+    .each-project p{
+        padding: 20px 10px 0px 60px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        color: #E9E9E7;
+        line-height: 24px;
+    }
+    
+}
+
+
+
+
