@@ -48,7 +48,8 @@ Since I indicated in my milestone-1 process blog, I had settled on an earthy-ton
 Presently, the most significant modification and problem is that the image changes when you hover over it on a desktop computer, however the hover effect does not function on mobile or tablet devices. Therefore, I believe that rather than having the images display when you hover over them (on mobile/tablet, they now appear when you click), I would put the images as backdrops for each project. 
 
 
-### CLASS PORTAL LINK
+### CLASS PORTAL WEBSITE LINK
+ https://sohin10.github.io/Classportal2/
 
 
 
