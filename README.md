@@ -46,6 +46,7 @@ I am pleased with how the website functions and appears on all devices, and it f
 The images I'm using presently are photographs I took on my trip to Europe; they will be changed with images of the projects and lab work. 
 Since I indicated in my milestone-1 process blog, I had settled on an earthy-toned color palette. However, I believe I would modify that, as it does not seem visually attractive at the moment, and I would change the appearance (color palette) to match the images and look beautiful. 
 Presently, the most significant modification and problem is that the image changes when you hover over it on a desktop computer, however the hover effect does not function on mobile or tablet devices. Therefore, I believe that rather than having the images display when you hover over them (on mobile/tablet, they now appear when you click), I would put the images as backdrops for each project. 
+Lastyl, I would also want to tidy up my code and make it easier to read, since I have left all my commented code in there for my own reference and would like to add additional comments to each piece.
 
 
 ### CLASS PORTAL WEBSITE LINK
