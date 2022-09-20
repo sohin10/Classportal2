@@ -2,17 +2,12 @@
 
 I started developing the class portal based on the design I created in Adobe Xd, where I had previously sketched out the structure of my website. 
 
+
 ### CONCEPT/THEME:
 Before beginning to write code, I prepared all of the HTML pages that I had intended for my website. I knew I had 4 different HTML pages, a landing page which would contain the main three projects and when you clicked on one of the projects it would take you to the detail page of that project where you could explore and read more about the project and 3 main buttons, one that would take you to the labs page(which would then take you to each lab project's detailed page), second button would take you to the github page where you can explore the codes for all the projects a third button would take you to the github page 
 The internal detail project pages feature the identical layout for both the main projects and the lab projects, as well as two buttons, one of which leads to the complete project on the web and the other to the code for that specific project. 
 
 Firstly, I created the basic style of my landing page using HTML and added plain text.  After completing the HTML for the landing page, I went on to coding its CSS. I wanted to create each HTML page alongside CSS so I could modify it as I added more code and edited it.  I used the same procedure for the remaining pages. 
-
-
-### Initial Sketches
-![landing portal](https://user-images.githubusercontent.com/60220627/188062246-8f2aa1d1-6c76-44ef-ad3f-92163d06865c.png)
-![hover](https://user-images.githubusercontent.com/60220627/188062236-390fe7f1-56c1-43ff-84b5-71b70043ba9f.png)
-![Untitled_Artwork 15](https://user-images.githubusercontent.com/60220627/188062253-c745ecbf-315b-4f4a-aefd-51064df814a5.png)
 
 
 
@@ -26,8 +21,6 @@ My main obstacle was when I found that my website was not responsive. It frustra
 <img width="1788" alt="HOMEMOB" src="https://user-images.githubusercontent.com/60220627/191224992-3592c584-4384-43e5-a5ef-38f1d42d19e3.png">
 <img width="1792" alt="PROJDESKTOP" src="https://user-images.githubusercontent.com/60220627/191225006-eecf1d73-976a-460f-811b-5279ee5e90ee.png">
 <img width="1792" alt="PROJMOB" src="https://user-images.githubusercontent.com/60220627/191225058-7014641d-970e-49e6-9a8e-185074f2f314.png">
-
-
 
 
 
